@@ -1,0 +1,16 @@
+.downBlock{
+    height: 50vh;
+    background-color: #afb0ff;
+}
+.downContainer{
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.title{
+
+}
+.block{
+    height: 50px;
+    width: 300px;
+    border: 1px solid;
+}

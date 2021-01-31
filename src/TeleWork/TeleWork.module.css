@@ -1,0 +1,23 @@
+.TeleWork {
+    height: 20vh;
+    background-color: #ffe19f;
+
+}
+
+.workContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.remote {
+    background-color: #fffbe4;
+}
+
+.buttonMe {
+    width: 60px;
+    height: 20px;
+    background-color: #282c34;
+}
