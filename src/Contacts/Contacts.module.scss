@@ -1,0 +1,69 @@
+@import "../Common/Styles/sass/mixins.scss";
+@import "../Common/Styles/sass/variables.scss";
+
+.contactsBlock{
+    /*height: 80vh;*/
+
+}
+.contactsContainer{
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.form{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 80px;
+
+    input, textarea {
+        width: 100%;
+        @include text($textFontFamily, 12px, 1.5);
+        background-color: $bgColor;
+        border: 1px solid #4a4a4a;
+    }
+    input {
+        height: 20%;
+    }
+    textarea {
+        height: 40%;
+    }
+
+    .submitBth {
+        padding: 10px 20px;
+        background-color: transparent;
+        border: none;
+        @include text($textFontFamily, 24px, 1.5);
+        text-transform: uppercase;
+
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: 25%;
+            width: 50%;
+            bottom: 0;
+            height: 10px;
+            background-color: $primaryColor;
+            transition: all .2s ease-in;
+            border-radius: 5px;
+        }
+
+        &:hover {
+            z-index: 1;
+            &::after {
+                z-index: -1;
+                width: 100%;
+                height: 30px;
+                left: 0;
+                bottom: 15px;
+            }
+        }
+    }
+}

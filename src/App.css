@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.App>div:nth-child(2n) {
+  background-color: #1f1f20;
+}
+.App>div:nth-child(2n+1) {
+  background-color: #212529;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +17,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
