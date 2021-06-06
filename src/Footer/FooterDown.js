@@ -10,9 +10,12 @@ function FooterDown() {
         <div className={style.downBlock}>
             <div className={`${styleContainer.container} ${style.downContainer}`}>
                 <h2 className={style.title}>Roman Somov</h2>
-                <div className={style.block}>
+                <div className={style.socialIcons}>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
+                    <div className={style.socialIcon}></div>
                 </div>
-                <span> 2021 все права защищены</span>
+                <span className={style.copyright}> 2021 все права защищены</span>
             </div>
 
 

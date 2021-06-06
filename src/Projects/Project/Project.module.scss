@@ -1,0 +1,56 @@
+@import "../../common/Styles/sass/variables";
+@import "../../common/Styles/sass/mixins";
+.project {
+    width: 250px;
+    background-color: $bgSecondColor;
+    display: flex;
+    flex-direction: column;
+    .icon {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 4;
+        }
+        .buttonWatch {
+            background-color: $primaryColor;
+            padding: 10px 20px;
+            position: relative;
+            z-index: 1;
+            color: $textColor;
+        }
+    }
+    .projectInfo {
+        padding: 25px 20px;
+        .projectTitle {
+            @include text($titleFontFamily,13px,1.2  );
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+        }
+        .description {
+            @include text($textFontFamily,1rem,1.5  );
+            font-weight: 400;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

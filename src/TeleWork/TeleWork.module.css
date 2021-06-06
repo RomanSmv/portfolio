@@ -1,5 +1,5 @@
 .TeleWork {
-    height: 20vh;
+
     background-color: #ffe19f;
 
 }
@@ -17,7 +17,6 @@
 }
 
 .buttonMe {
-    width: 60px;
-    height: 20px;
+    padding: 10px 20px;
     background-color: #282c34;
 }

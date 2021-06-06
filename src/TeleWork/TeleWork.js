@@ -8,7 +8,7 @@ function TeleWork() {
             <div className={`${styleContainer.container} ${style.workContainer}`}>
 
                 <h3 className={style.remote}> Proposal remote job </h3>
-                <button className={style.buttonMe}>for me</button>
+                <a href='' className={style.buttonMe}>for me</a>
 
             </div>
 

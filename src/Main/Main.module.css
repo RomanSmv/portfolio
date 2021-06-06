@@ -1,6 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: #e8fdff;
+    background-color: red;
 }
 .container {
     border: 1px solid;
@@ -9,6 +9,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background-color: white;
 }
 .text {
     width: 300px;

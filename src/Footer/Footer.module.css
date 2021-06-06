@@ -1,16 +1,26 @@
 .downBlock{
-    height: 50vh;
+
     background-color: #afb0ff;
 }
 .downContainer{
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: flex-start;
 }
+
 .title{
 
 }
-.block{
+
+.socialIcons {
+    width: 250px;
+    background-color: #88d0ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialIcon{
     height: 50px;
-    width: 300px;
-    border: 1px solid;
+    width: 50px;
+    background-color: #ffb7fe;
 }
