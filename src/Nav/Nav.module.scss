@@ -2,13 +2,12 @@
 @import "../Common/Styles/sass/variables.scss";
 
 .nav {
-  border: 1px solid;
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
-
+margin-right: 20px;
   a {
-    @include text($textFontFamily, 12px, 1.5);
+    @include text($textFontFamily, 16px, 1.5);
     text-decoration: none;
   }
 }

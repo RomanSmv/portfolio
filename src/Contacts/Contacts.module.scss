@@ -2,7 +2,6 @@
 @import "../Common/Styles/sass/variables.scss";
 
 .contactsBlock{
-    /*height: 80vh;*/
 
 }
 .contactsContainer{
@@ -21,11 +20,12 @@
     gap: 10px;
     margin-bottom: 80px;
 
+
     input, textarea {
         width: 100%;
         @include text($textFontFamily, 12px, 1.5);
         background-color: $bgColor;
-        border: 1px solid #4a4a4a;
+        border: 1px;
     }
     input {
         height: 20%;

@@ -14,12 +14,12 @@ function Projects() {
         backgroundImage: `url(${socialImage})`,
     };
     return (
-        <div className={style.projectsBlock}>
+        <div className={style.projectsBlock} id={"projects"}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title text={"Projects"}/>
                 <div className={style.projects}>
-                    <Project style={todo} title={"To Do List"}  description={"dkm j22222 222ihv nsi dbsdh bvds hi"}/>
-                    <Project style={social} title={"Social Network"}  description={"dkmcj uh88 888 888hv nsid bsdh bvd shi"} />
+                    <Project style={todo} href={"https://romansmv.github.io/ToDlist/"} title={"To Do List"}  description={""}/>
+                    <Project style={social} href={"https://romansmv.github.io/ReactVidos-SS/#/profile"} title={"Social Network"}  description={""} />
 
                 </div>
             </div>
