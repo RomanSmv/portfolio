@@ -10,25 +10,18 @@ import Skill from "./Skill/Skill";
 function Contacts() {
     return (
         <div className={style.contactsBlock} id="contacts">
-            <form
-                action="https://formspree.io/f/xleanegg"
-                method="POST"
-            >
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title text={"Contacts Me"}/>
 
-                <form className={style.form}>
-                    <input type="text" placeholder={"Your Name"} />
-                    <input type="text" placeholder={"Your Email"}/>
-                    <textarea placeholder={"Your Message"}/>
+                <form action="https://formspree.io/f/xleanegg"
+                      method="POST" className={style.form}>
+                    <input type="text" placeholder={"Your Name"} name={"name"}/>
+                    <input type="text" placeholder={"Your Email"} name={"email"}/>
+                    <textarea placeholder={"Your Message"} name={"text"}/>
 
                     <button type='submit' className={style.submitBth}> send</button>
                 </form>
-
             </div>
-            </form>
-
-
         </div>
     )
 }

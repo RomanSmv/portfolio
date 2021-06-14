@@ -13,10 +13,10 @@ function FooterDown() {
             <div className={`${styleContainer.container} ${style.downContainer}`}>
                 <Title text={"Roman Somov"}/>
                 <div className={style.socialIcons}>
-                    <a href="https://t.me/khazady" className={style.socialIcon}></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://t.me/romansmv8" className={style.socialIcon}></a>
                     <a href="tel:+375255434784" className={style.socialIcon}>
                     </a>
-                    <a href="https://www.linkedin.com/in/romansmv" className={style.socialIcon}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/romansmv" className={style.socialIcon}>
                     </a>
                 </div>
                     <span className={style.copyright}> 2021 All rights reserved</span>
